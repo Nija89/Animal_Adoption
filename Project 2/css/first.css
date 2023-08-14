@@ -1,0 +1,320 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    width: 90%;
+    height: 190px;
+    top: 5px;
+    z-index: 1;
+    position: sticky;
+    background-image: url(../100.webp);
+    background-size: 100%;
+    box-sizing: border-box;
+}
+
+.one {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.two {
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.two img {
+    width: 100%;
+}
+
+.four {
+    width: 65%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.five {
+    display: inline-block;
+    padding: 20px;
+}
+
+.six {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: monospace;
+    text-shadow: wheat;
+    text-decoration: underline;
+}
+
+.seven {
+    display: none;
+    position: absolute;
+    min-width: 185px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.seven a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.five:hover .seven {
+    background: rgb(240, 72, 86);
+    display: block;
+}
+
+.five:hover .six {
+    background: rgb(129, 204, 238);
+    padding: 5px;
+}
+
+.eight {
+    width: 15%;
+    float: right;
+    box-sizing: border-box;
+    padding: 50px 0 0 0;
+}
+
+.eight a {
+    background: #000;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.eight a:hover {
+    background: rgb(82, 76, 76);
+    color: black;
+    padding: 25px;
+}
+
+/* 
+SECTION */
+.nine {
+    width: 90%;
+    padding: 40px;
+}
+
+.nine p {
+    text-align: center;
+    font-family: 'Comforter', cursive;
+    font-size: 25px;
+    padding: 0 0 15px 0;
+}
+
+.ten {
+    width: 100%;
+    display: flex;
+}
+
+.eleven {
+    width: 22%;
+}
+
+.eleven img {
+    width: 80%;
+    ;
+    border-radius: 150px;
+}
+
+.eleven p {
+    padding: 0 50px 0 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.eleven a {
+    text-decoration: none;
+}
+
+
+/* ABOUTS US */
+
+.banner {
+    width: 90%;
+}
+
+.thirteen {
+    width: 50%;
+    float: left;
+}
+
+.thirteen p {
+    text-align: center;
+    padding: 30px 30px 10px 30px;
+    font-size: 20px;
+    font-family: 'Neonderthaw', cursive;
+}
+
+.fourteen {
+    width: 50%;
+    float: left;
+}
+
+.fourteen img {
+    width: 100%;
+    padding: 10px 0 0 0;
+}
+
+/*why adopt*/
+
+
+.fifteen {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.sixteen {
+    width: 35%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.sixteen img {
+    width: 100%;
+    display: block;
+}
+
+.seventeen h3 {
+    text-align: center;
+    color: rgba(91, 93, 94, 0.397);
+    padding: 10px;
+}
+
+.seventeen p {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.seventeen p a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.seventeen p a:hover {
+    background: rgb(193, 121, 235);
+    color: white;
+    padding: 10px;
+}
+
+/* FAQs */
+
+.eighteen {
+    display: flex;
+}
+
+.ninteen {
+    width: 50%;
+}
+
+.ninteen img {
+    width: 100%;
+}
+
+.twenty {
+    width: 50%;
+}
+
+.twenty p {
+    font-family: 'Comforter', cursive;
+    padding: 100px 0 0 30px;
+    font-size: 25px;
+    text-decoration: underline 1px;
+}
+
+.twenty ul {
+    padding: 10px;
+}
+
+.twenty ul li {
+    font-family: 'Comforter', cursive;
+    padding: 10px 0 0 50px;
+}
+
+.twenty a {
+    border: 1px solid rgb(137, 63, 235);
+    display: inline-block;
+    padding: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.twenty a:hover {
+    background: rgb(179, 130, 243);
+    color: white;
+}
+
+/*last*/
+
+.twentyone {
+    width: 90%;
+    display: flex;
+}
+
+.twentytwo {
+    width: 40%;
+}
+
+.twentytwo img {
+    width: 100%;
+}
+
+.twentythree {
+    width: 60%;
+}
+
+#amp {
+    width: 60%;
+
+}
+
+/*last*/
+.twentyfour {
+    text-align: center;
+    padding: 20px;
+}
+
+.twentysix img {
+    width: 5%;
+}
+
+.twentyfive .fab {
+    font-size: 30px;
+    padding: 10px;
+}
+
+/* to TOP */
+#myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    cursor: pointer;
+    border: 1px solid black;
+    background: #000;
+    color: white;
+    padding: 12px 15px;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
