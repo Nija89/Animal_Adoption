@@ -13,7 +13,7 @@ header {
     top: 5px;
     z-index: 1;
     position: sticky;
-    background-image: url(../100.webp);
+    background-image: url(../Photo/100.webp);
     background-size: 100%;
     box-sizing: border-box;
 }
@@ -164,13 +164,13 @@ SECTION */
 
 .fourteen img {
     width: 100%;
-    padding: 10px 0 0 0;
 }
 
 /*why adopt*/
 
 
 .fifteen {
+    margin: 20px 0px 0px 0px;
     display: flex;
     width: 100%;
     justify-content: space-between;
