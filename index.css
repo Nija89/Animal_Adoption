@@ -13,7 +13,7 @@ header {
     top: 5px;
     z-index: 1;
     position: sticky;
-    background-image: url(../Photo/100.webp);
+    background-image: url(../Photo/100.jpg);
     background-size: 100%;
     box-sizing: border-box;
 }
